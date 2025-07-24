@@ -1,0 +1,54 @@
+@media screen and (min-width: 481px) {
+
+    /* 平板 */
+    #Banner {
+        height: 556px;
+        background: url("images/tablet/Banner.png") no-repeat;
+        background-size: auto;
+        justify-content: flex-start;
+    }
+
+    #Banner .container {
+        background-color: transparent;
+        width: 60%;
+        height: 70%;
+        margin: 20px;
+
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .btn {
+        padding: 20px;
+        font-size: 1rem;
+    }
+
+
+
+
+
+    .container {
+        width: 90%;
+    }
+
+    .article_card_sets {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .article_card {
+        width: 48%;
+    }
+
+    .article_text {
+        width: 50%;
+        /* margin: auto; */
+    }
+
+    .article_img {
+        height: 200px;
+    }
+}

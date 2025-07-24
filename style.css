@@ -1,0 +1,157 @@
+/* 全域(手機) */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    color: #292F36;
+    font-family: 'DM Serif Display';
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+p,
+.p_font {
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+}
+
+#Banner {
+    width: 100%;
+    height: 500px;
+    padding: 30px;
+    background: url("images/phone/Banner.png") no-repeat;
+    background-size: auto 100%;
+    border-bottom-left-radius: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Banner .container {
+    width: 80%;
+    height: 300px;
+    padding: 20px 30px;
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+}
+
+.btn {
+    background-color: #292F36;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(243, 243, 243);
+    font-weight: bold;
+}
+
+.btn i {
+    color: goldenrod;
+}
+
+/* ================
+    Article&News
+===============*/
+
+#Article {
+    padding-top: 80px;
+}
+
+
+.container {
+    margin: auto;
+    width: 100%;
+}
+
+.article_paragraph {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.article_title {
+    margin-bottom: 20px;
+}
+
+.article_text {
+    width: 90%;
+    margin: auto;
+}
+
+.article_card_sets {
+    width: 80%;
+    margin: auto;
+}
+
+.article_card {
+    border: 1px solid #E7E7E7;
+    border-radius: 60px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    transition: all 0.1s;
+    position: relative;
+}
+
+.article_img {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    overflow: hidden;
+    width: 100%;
+    height: 260px;
+    margin-bottom: 10px;
+}
+
+.article_intro {
+    padding: 5px;
+}
+
+.article_img img {
+    width: 100%;
+}
+
+.tag {
+    display: block;
+    background-color: #FFF;
+    position: absolute;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    font-size: .75rem;
+    left: 35px;
+    bottom: 200px;
+}
+
+.article_intro_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.read_more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #F4F0EC;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: #292F36;
+    transition: all 0.1s;
+}

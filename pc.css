@@ -1,0 +1,49 @@
+@media screen and (min-width: 835px) {
+
+    /* 電腦 */
+    #Banner {
+        height: 800px;
+        background: url("images/Banner.jpg") no-repeat;
+        background-size: auto;
+    }
+
+    #Banner .container {
+        background-color: transparent;
+        width: 40%;
+        margin: 40px;
+        padding: 0;
+        height: 60%;
+    }
+
+    .hero-title {
+        font-size: 5rem;
+    }
+
+    .btn {
+        padding: 25px;
+        font-size: 1.2rem;
+    }
+
+
+
+    .container {
+        max-width: 1200px;
+        width: 80%;
+    }
+
+    .article_card {
+        width: 32%;
+    }
+
+    .article_card:hover {
+        background-color: #E7E7E7;
+    }
+
+    .read_more:hover {
+        background-color: #ffffff;
+    }
+
+    .tag {
+        bottom: 170px;
+    }
+}
