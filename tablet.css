@@ -1,6 +1,8 @@
 @media screen and (min-width: 481px) {
 
     /* 平板 */
+
+
     #Banner {
         height: 556px;
         background: url("images/tablet/Banner.png") no-repeat;
@@ -27,6 +29,11 @@
 
 
 
+    .work li {
+        width: 70%;
+    }
+
+
 
 
     .container {
@@ -49,6 +56,67 @@
     }
 
     .article_img {
+        height: 200px;
+    }
+}
+
+
+@media screen and (min-width: 700px) {
+    header {
+        position: relative;
+        z-index: 1;
+        box-shadow: 0 0 15px #d4d4d4;
+    }
+
+    header .container {
+        margin: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .navbar {
+        width: 70%;
+    }
+
+
+    .navbar ol {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar li {
+        border-bottom: 0;
+    }
+
+    .navbar a {
+        background-color: transparent;
+
+    }
+
+
+    #Work .container {
+        width: 90%;
+    }
+
+    #Work ol {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .work li {
+        width: 32%;
+    }
+
+    .work li:nth-child(3) {
         height: 200px;
     }
 }

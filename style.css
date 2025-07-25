@@ -21,11 +21,84 @@ p,
     letter-spacing: 1.2px;
 }
 
+.container {
+    margin: auto;
+    width: 100%;
+}
+
 /* ================
      Header
 ===============*/
+header {
+    width: 100%;
+    padding-top: 10px;
+}
 
+header .container {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.logo {
+    margin-left: 30px;
+}
+
+.menu {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    background-color: #666;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.menu::after {
+    content: "";
+    position: absolute;
+    top: 1em;
+    left: .8em;
+    width: 1.5em;
+    height: 0.2em;
+    border-top: 0.6rem double white;
+    border-bottom: 0.2rem solid white;
+}
+
+.navbar,
+.navbar ol,
+.navbar li,
+.navbar a {
+    width: 100%;
+    /*讓漢堡選單佔滿螢幕寬度*/
+}
+
+.navbar ol {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar li {
+    list-style: none;
+    height: 100%;
+    border-bottom: 1px solid #333;
+}
+
+.navbar a {
+    text-decoration: none;
+    height: 100%;
+    text-align: center;
+    color: #292F36;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
 
 /* ================
     Header END
@@ -81,6 +154,52 @@ p,
     Banner END
 ===============*/
 /* ================
+       Work
+===============*/
+#Work {
+    padding-top: 80px;
+}
+
+#Work .container {
+    width: 80%;
+    margin: auto;
+}
+
+.work {
+    list-style-type: none;
+}
+
+.work li {
+    text-align: center;
+    height: 200px;
+    width: 80%;
+    margin: auto;
+}
+
+.work li:nth-child(3) {
+    height: 150px;
+}
+
+.work li p {
+    padding: 20px 0 30px 0;
+}
+
+
+
+.read {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.read i {
+    color: goldenrod;
+}
+
+/* ================
+    Work END
+===============*/
+/* ================
     Article&News
 ===============*/
 
@@ -89,10 +208,10 @@ p,
 }
 
 
-.container {
+/* .container {
     margin: auto;
     width: 100%;
-}
+} */
 
 .article_paragraph {
     text-align: center;
